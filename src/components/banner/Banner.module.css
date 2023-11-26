@@ -2,14 +2,14 @@
   width: 100vw;
   height: 15rem;
   margin-top: .5rem;
-  background-image: url("./images/banner.png");
+  background-image: url(images/banner.png);
   background-position: initial;
   background-size: cover;
 }
 
 @media (max-width: 600px) {
   .banner {
-    background-image: url("./images/banner-mobile.svg");
+    background-image: url(./images/bannermobile.svg);
     height: 24rem;
   }
 }
