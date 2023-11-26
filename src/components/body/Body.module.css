@@ -1,0 +1,24 @@
+.body {
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: 500;
+}
+
+.body h3 {
+  margin-bottom: 1rem;
+}
+
+.body div {
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem .3rem;
+  }
+
+@media (max-width: 600px) {
+  .body div {
+  margin-top: 1rem;
+  padding: 2rem 2rem 0rem 2rem;
+}
+}

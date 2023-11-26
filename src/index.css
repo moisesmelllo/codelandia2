@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: auto;
+  background-color: var(--white);
+}
+
+main {
+  flex-grow: 1;
+  padding: 60px 0rem;
+}
+
+header,
+footer {
+  position: fixed;
+  width: 100vw;
+  /* caso a width do body nao seja 100% */
+  max-width: inherit;
+}
+
+header {
+  top: 0
+}
+
+footer {
+  bottom: 0;
+}
+
