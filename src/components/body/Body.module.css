@@ -8,6 +8,11 @@
   margin-bottom: 1rem;
 }
 
+.body p {
+  text-align: center;
+  padding: 0 4rem;
+}
+
 .body div {
   padding: 2rem 2rem;
   display: flex;
